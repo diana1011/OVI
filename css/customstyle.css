@@ -1,0 +1,21 @@
+ul.socialnet
+{
+	background-color: white;
+    padding: 0;
+    margin: 0;
+    top: 80%;
+    left: 2%;
+    position: fixed;
+}
+
+li.itemsocialnet
+{
+	border: 1px solid;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
