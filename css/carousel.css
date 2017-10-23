@@ -28,6 +28,7 @@ body {
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
+  background-color: #004669;
 }
 .navbar-wrapper .navbar .container {
   width: auto;
