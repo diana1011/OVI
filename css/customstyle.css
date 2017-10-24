@@ -1,4 +1,4 @@
-ul.socialnet:hover
+ul.socialnet
 {
 	list-style: none;
 	background-color: white;
@@ -7,11 +7,9 @@ ul.socialnet:hover
     top: 80%;
     left: 2%;
     position: fixed;
-	-webkit-transition:0.5s;
-	-webkit-transform:rotate(360deg);
 }
 
-li.itemsocialnet
+li.itemsocialnet:hover
 {
 	border: 1px solid;
     margin: 0;
@@ -21,4 +19,6 @@ li.itemsocialnet
     text-align: center;
     line-height: 30px;
     margin-bottom: 5px;
+    -webkit-transition:0.5s;
+    -webkit-transform:rotate(360deg);
 }
