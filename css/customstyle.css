@@ -1,5 +1,6 @@
 ul.socialnet
 {
+	list-style: none;
 	background-color: white;
     padding: 0;
     margin: 0;
