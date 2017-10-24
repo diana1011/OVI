@@ -1,16 +1,17 @@
 ul.socialnet
 {
-	list-style: none;
+	
 	background-color: white;
     padding: 0;
     margin: 0;
-    top: 80%;
+    top: 52%;
     left: 2%;
     position: fixed;
 }
 
 li.itemsocialnet:hover
 {
+	list-style: none;
 	border: 1px solid;
     margin: 0;
     width: 30px;
