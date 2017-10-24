@@ -1,7 +1,7 @@
 ul.socialnet
 {
-	
-	background-color: white;
+    list-style: none;
+    background-color: white;
     padding: 0;
     margin: 0;
     top: 52%;
@@ -11,15 +11,14 @@ ul.socialnet
 
 li.itemsocialnet:hover
 {
-	list-style: none;
-	border: 1px solid;
+    border: 1px solid;
     margin: 0;
     width: 30px;
     height: 30px;
     border-radius: 20px;
     text-align: center;
     line-height: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     -webkit-transition:0.5s;
     -webkit-transform:rotate(360deg);
 }
