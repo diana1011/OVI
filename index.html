@@ -29,11 +29,9 @@
 
     <!-- Custom styles -->
     <link href="css/carousel.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/customstyle.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
   </head>
 <!-- NAVBAR
@@ -208,6 +206,18 @@
           <li class="itemsocialnet"><a><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
           <li class="itemsocialnet"><a><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
       </ul>
+
+      <img onmouseover="spinsocial(this)" onmouseout="normalsocial(this)" src=".itemsocialnet" alt=".socialnet">
+
+      <script>
+        function spinsocial(x) {
+          document.querySelector('.itemsocialnet').classList.toggle('fa-spin');
+        }
+
+        function normalsocial(x) {
+          document.querySelector('.itemsocialnet').classList.toggle('fa-spin');
+        }
+      </script>
 
 
       <!-- FOOTER -->
