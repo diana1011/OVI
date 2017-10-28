@@ -1,7 +1,7 @@
 ul.socialnet
 {
     list-style: none;
-    background-color: white;
+    background-color: transparent;
     padding: 0;
     margin: 0;
     top: 52%;
@@ -13,12 +13,67 @@ li.itemsocialnet:hover
 {
     border: 1px solid;
     margin: 0;
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
     text-align: center;
-    line-height: 30px;
+    line-height: 40px;
     margin-bottom: 6px;
     -webkit-transition:0.5s;
     -webkit-transform:rotate(360deg);
+}
+
+.authors {
+    display: block;
+    position: absolute;
+    background: #3c3c3c;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.backgroundauthors {
+	height: 200%;
+    width: 100%;
+}
+
+.imgauthors {
+    vertical-align: middle;
+    height: 300%;
+    width: 100%;
+}
+
+.bodyauthors{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.featurette-dividerauthor {
+  margin: 8px 0;
+}
+
+.circleimg1{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	top: 80px;
+	left: 100px;
+}
+
+.circleimg2{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	top: 1100px;
+	left: 100px;
+}
+
+.circleimg3{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	top: 1900px;
+	left: 100px;
 }
